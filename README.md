@@ -13,14 +13,12 @@ The data was extracted via the Wikimedia API using the associated code. It is fo
 
 World population data description (WPDS_2020_data.csv):
 Data is from the world data sheet from PRB. Contains data about population metrics at different countries.
-Columns are:
+Relevant columns are:
 
-1. FIPS
-2. Name
-3. Type
-4. TimeFrame
-5. Data
-6. Population
+1. FIPS - code describing the region
+2. Name - country name
+3. Type - granularity of region
+6. Population - population at given region
 
 Write up:
 1. Before I started working on the data, I was thinking about access to technology. I suspected that countries with a higher poverty might also have a higher proportion of its population that are unable to access the internet, and therefore might have less articles written about their politicians. I also thought about government regulation. I know that in some countries, the internet is highly sensored, and there is less transparency in the affairs of the government. In these countries, I would also expect there to be a lower number of articles written about politicians. However, for the most part, I expect that if the assignment did not specifically ask me to do so, I would not think too much about the data in terms of bias, and this is something I should be more careful about in the future.
