@@ -14,7 +14,8 @@ The data was extracted via the Wikimedia API using the associated code. It is fo
 World population data description (WPDS_2020_data.csv):
 Data is from the world data sheet from PRB. Contains data about population metrics at different countries.
 Columns are:
-1 FIPS
+
+1. FIPS
 2. Name
 3. Type
 4. TimeFrame
