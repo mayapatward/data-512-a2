@@ -1,7 +1,16 @@
 The goal of this project was to understand bias by looking through data on Wikipedia articles about politicians from a variety of countries. We used ORES to estimate the quality of the article.
 
+Description of files in folder:
+1. hcds-a2-bias.ipynb - contains all code as well as information necessary to understand each programming step, as well your findings 
+2. WPDS_2020_data.csv - source data, contains the country and region level population information (see below)
+3. page_data.csv - source data, contains the information on articles on politicians by country (see below)
+4. df_pagedata_filtered - pickle file that is used to load the final dataset
+5. wp_wpds_countries-no_match.csv - contains final dataset with entries that did not match in one of the two source datasets
+6. wp_wpds_politicians_by_country.csv - contains final dataset with entries that matched in both source datasets
+7. revid_missing.txt - contains the data that the ORES api call was not able to find
+
 Link to source data:
-Populations by country data: https://figshare.com/articles/dataset/Untitled_Item/5513449
+Politicians by country data: https://figshare.com/articles/dataset/Untitled_Item/5513449
 World population data: https://docs.google.com/spreadsheets/d/1CFJO2zna2No5KqNm9rPK5PCACoXKzb-nycJFhV689Iw/edit?usp=sharing
 
 Politicians by country description (page-data.csv):
